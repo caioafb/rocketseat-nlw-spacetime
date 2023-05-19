@@ -10,6 +10,7 @@
               "endOfLine": "auto",
               "semi": false
             }
-        ]
+        ],
+        "camelcase": "off"
     }
 }
