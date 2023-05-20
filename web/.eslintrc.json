@@ -2,5 +2,15 @@
   "extends": [
     "next/core-web-vitals",
     "@rocketseat/eslint-config/react"
-]
+],
+  "rules": {
+    "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto",
+          "semi": false
+        }
+    ],
+    "camelcase": "off"
+  }
 }

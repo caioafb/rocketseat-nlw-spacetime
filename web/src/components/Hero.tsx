@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import nlwlogo from '../assets/nlw-spacetime-logo.svg'
+import Image from "next/image"
+import nlwlogo from "../assets/nlw-spacetime-logo.svg"
 
 export function Hero() {
   return (

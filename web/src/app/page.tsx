@@ -1,13 +1,13 @@
-import { cookies } from 'next/headers'
+import { cookies } from "next/headers"
 
-import { Copyright } from '@/components/Copyright'
-import { EmptyMemories } from '@/components/EmptyMemories'
-import { Hero } from '@/components/Hero'
-import { SignIn } from '@/components/Signin'
-import { Profile } from '@/components/Profile'
+import { Copyright } from "@/components/Copyright"
+import { EmptyMemories } from "@/components/EmptyMemories"
+import { Hero } from "@/components/Hero"
+import { SignIn } from "@/components/Signin"
+import { Profile } from "@/components/Profile"
 
 export default function Home() {
-  const isAuthenticated = cookies().has('token')
+  const isAuthenticated = cookies().has("token")
 
   return (
     <main className="grid min-h-screen grid-cols-2">

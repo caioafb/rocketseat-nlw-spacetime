@@ -1,4 +1,4 @@
-import { User } from 'lucide-react'
+import { User } from "lucide-react"
 
 export function SignIn() {
   return (
@@ -13,7 +13,7 @@ export function SignIn() {
       <p className="max-w-[152px] text-sm leading-snug">
         <span className="underline transition-colors hover:text-gray-50">
           Create your account
-        </span>{' '}
+        </span>{" "}
         and save your memories!
       </p>
     </a>
